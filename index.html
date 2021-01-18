@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Emily Kissoon</title>
+    </head>
+    <body>
+        <div class="menu" id="myMenu">
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="resume.html">Resume</a>
+            <a href="contacts.html">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="responsive_class()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <!--<a id="header" href="home.html">Emily Kissoon</a>-->
+        </div>
+        <div class="container-fluid">
+            <div class="background">
+                <div class="cube"></div>
+                <div class="cube"></div>
+                <div class="cube"></div>
+                <div class="cube"></div>
+                <div class="cube"></div>
+            </div>
+            <section class="main">
+                <h1>Hello, I'm Emily Kissoon</h1>
+                <p>I am an ECE student at the University of Waterloo.</p>
+                <p>I specialize in <span style="font-weight: bolder; font-size: 20px">Full Stack Web Development.</span></p>
+                <h3>Skills:</h3>
+                <div class="m card bg-light mb-3" style="max-width: 36rem;">
+                    <div class="card-body">
+                        <span class="code">&lt;/&gt;</span>
+                        <h5 class="card-title">Programming Languages</h5>
+                        <p class="card-text" style="color:black">I have experience in Python, C++, C, Javascript, HTML5, CSS3
+                            and SQL. I have used each of these languages in several side projects over the past year.</p>
+                    </div>
+                </div>
+                <div class="m card bg-light mb-3" style="max-width: 36rem;">
+                    <div class="card-body">
+                        <span class="code">&lt;/&gt;</span>
+                        <h5 class="card-title">Frameworks/Tools/Other</h5>
+                        <p class="card-text" style="color:black">Through designing and executing my side projects, I have become
+                            efficient in Flask, Django, SQLite, SASS, Jinja, Bootstrap 4 and Git/Version Control.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <script>
+            function responsive_class() {
+                var x = document.getElementById("myMenu");
+                if (x.className === "menu") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "menu";
+                }
+            }
+        </script>
+    </body>
+</html>
