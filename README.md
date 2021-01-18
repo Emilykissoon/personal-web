@@ -1,3 +1,3 @@
-#My Personal Webpage
+My Personal Webpage
 
-##Check it out - (https://emily-k.com)
+Check it out - (https://emily-k.com)
