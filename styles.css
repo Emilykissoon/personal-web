@@ -167,6 +167,12 @@ html, body {
     list-style-position: inside;
 }
 
+@media screen and (max-width: 320px) {
+    .background {
+        color: gray;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .menu a:not(:first-child) {
         display: none;
